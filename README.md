@@ -1,37 +1,68 @@
-# WWCodeManila-PHP
+# Welcome to WWCodeManila-PHP Official Repo Site
 
-In prep for PHP Study Group:
+For beginners, we will learn the basic concepts of programming using PHP. This can be your jump off towards web development, scripting, data processing and more!
 
-1. Bring your laptop
-2. You may install XAMMP and Notepad++ (Windows), MAMP & Any Text Editor (Mac)
+For immediate/advanced PHP Devs, let's spread our knowledge of PHP and learn more!
 
-MORE INFO WILL BE ADDED SOON.
+If you have questions, please feel free to ask and participate on our discussion board.
 
-Our PHP study groups will be led by our awesome Tech Lead Jekyle! :)
+Study Group Setup
 
-What is a Technical Study Group?
+    Resources such as notes, exercises and samples will be uploaded here.
+    Our 1.5 hours will be divided randomly into:
+        Introduction/Getting to know first-timers
+        Discuss questions/issues raised on discussion board
+        Lightning Talk (anyone who wants to share/chikka something!)
+        Self-paced or mini study session
+        Today I Learned (TIL)
+        Announcement
 
-Women Who Code Technical Study Groups are events where women can come together and help each other learn and understand a specific programming language, technology, or anything related to coding or engineering.
+Getting started
 
-We welcome developers of all levels and encourage those with more experience to help out those that are just starting. There's always at least one mentor or leader present to help you with best practices or to guide you through if you are stuck with a nasty problem! :)
+    Install XAMMP and Notepad++ (Windows), MAMP & Any Text Editor (Mac)
+    Basic GIT commands
 
-(Definition taken from Women Who Code DC) (https://womenwhocode.com/DC)
+Topics we've covered
 
-ADDITIONAL NOTES:
+    WEEK 1
+      WHAT IS PHP
+      WHAT YOU SHOULD ALREADY KNOW
+      WHAT IS A PHP FILE
+      WHAT CAN PHP DO
+      WHY PHP
+      HOW TO INSTALL PHP
+    WEEK 2      
+      PHP DATA TYPES, STRINGS, CONSTANTS, OPERATORS, ARRAYS
+      PHP IF…ELSE…ELSEIF
+      PHP SWITCH, WHILE, FOR LOOPS
+      PHP FUNCTIONS
+    WEEK 3
+      PHP FORMS HANDLING
+      CONNECT TO MYSQL DATABASE
+    WEEK 4
+      PHP FORMS VALIDATION
+    WEEK 5
+      SAVE/RETRIVE DATA FROM DATABASE
+    WEEK 6
+      BASIC CRUD (Create, Read, Update, Delete)
+    
+Soon
 
-If you weren't able to attend our Intro to Technical Study Group Event last Feb 11, 2017, but wants to attend this event.
-
-Please join our Facebook Group - WWCode Manila (https://www.facebook.com/groups/wwcodemanila/)
-Go to Videos, look for the 2nd to the last video, Introduction to Technical Study Group.
-
-Please watch this before attending our study groups so you know what to expect. Thank you. :)
-
-* * *
-
-Getting to know you more:
-
-Please answer this form (http://bit.ly/WWCodeManilaSubscribe) if you haven't answered it yet! We love to know more about you.
-
-* * *
-
-This event is free. No snacks will be provided, please make sure to eat before attending the event. If you want to bring snacks for everyone, just comment below. Thanks. :)
+    CREATING A SIMPLE PHP PROJECT
+      PART 1: CREATE LOGIN & REGISTRATION PAGE    List comprehension
+      PART 2: CREATE HOME PAGE & MENU
+      PART 3: CREATE ADD, EDIT, & DELETE PAGE
+    PHP MVC
+    PHP FRAMEWORKS
+    MODEL
+    VIEW
+    CONTROLLERS
+    CREATING A SIMPLE PHP PROJECT USING ZEND FRAMEWORK (A VERY SIMPLE PHONEBOOK)
+      PART 1: CREATE LOGIN & REGISTRATION PAGE
+      PART 2: CREATE HOME PAGE & MENU 
+      PART 3: CREATE ADD, EDIT, & DELETE PAGE
+    CREATING A SIMPLE PHP PROJECT USING CODE IGNITER FRAMEWORK (A VERY SIMPLE PHONEBOOK)
+      PART 1: CREATE LOGIN & REGISTRATION PAGE
+      PART 2: CREATE HOME PAGE & MENU 
+      PART 3: CREATE ADD, EDIT, & DELETE PAGE
+    SERVER ARCHITECTURE & PHP PROJECT DEPLOYMENT
