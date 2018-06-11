@@ -37,4 +37,9 @@ On your browser go to
 ```
 You should be able to see the default Laravel landing page. :)
 
+If you have added a file or changed a namespace, you can invoke this to resolve the 'can't find class'
+```sh
+docker exec wwcodelaravel_app_1 php composer.phar dump-autoload
+```
+
 Happy Coding! :)
