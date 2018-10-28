@@ -13,4 +13,4 @@ You can also refer to these online tutorials to help you get started.
 
 ## Useful resources
 
-- [PHP related Repo](https://github.com/php).
+- [PHP related Repos](https://github.com/php).
