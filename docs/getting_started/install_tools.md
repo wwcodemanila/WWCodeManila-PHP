@@ -22,7 +22,7 @@ PHP does not require an IDE. You can opt to use one of these as your text editor
 
 For more advanced users, you can opt to use IDE:
 
-- [PHP Storm](https://www.jetbrains.com/phpstorm/) **recommended**
+- [PHP Storm](https://www.jetbrains.com/phpstorm/) (all platforms) **recommended**
 
 ### Basic GIT Command
 
