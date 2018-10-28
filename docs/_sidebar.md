@@ -8,6 +8,8 @@
 
 - Contents
   - [PHP Fundamentals](contents/php_fundamentals.md)
+  - [Topics We've Covered](contents/php_topics.md)
+  - [Soon](contents/php_soon.md)
 
 - Resources
   - [PHP Conventions](resources/php_conventions.md)
