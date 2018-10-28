@@ -11,7 +11,7 @@ Learn more about PHP from their [official site](https://secure.php.net/).
 
 ## About this study group
 
-Read this [document](wwcodemanila/study_groups.md) first to know what study groups are.
+!> Read this [document](wwcodemanila/study_groups.md) first to know what study groups are.
 
 This study group is held once a month and is led by our volunteer leaders. However, everyone is welcome to join, learn, and share their knowledge in the community.
 
