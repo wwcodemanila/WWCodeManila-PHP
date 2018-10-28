@@ -1,9 +1,5 @@
 # Women Who Code Manila PHP Study Group
 
-We will learn the basic concepts of programming using PHP. This can be your jump off towards web development, scripting, data processing and more!
-
-Let's spread our knowledge of PHP and learn more!
-
 ![PHP](_media/php-logo.png)
 
 **PHP** is a popular general-purpose scripting language that is especially suited to web development.
@@ -16,6 +12,8 @@ Learn more about PHP from their [official site](https://secure.php.net/).
 ## About this study group
 
 !> Read this [document](wwcodemanila/study_groups.md) first to know what study groups are.
+
+We will learn the basic concepts of programming using PHP. This can be your jump off towards web development, scripting, data processing and more!
 
 This study group is held once a month and is led by our volunteer leaders. However, everyone is welcome to join, learn, and share their knowledge in the community.
 
