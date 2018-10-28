@@ -6,7 +6,8 @@
 
 Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. 
 
-Learn more about Ruby from their [official site](https://secure.php.net/).
+
+Learn more about PHP from their [official site](https://secure.php.net/).
 
 ## About this study group
 
