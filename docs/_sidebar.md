@@ -7,9 +7,8 @@
   - [Study Groups](wwcodemanila/study_groups.md)
 
 - Contents
-  - [Ruby Fundamentals](contents/ruby_fundamentals.md)
-  - [Ruby on Rails](contents/ruby_on_rails.md)
+  - [PHP Fundamentals](contents/php_fundamentals.md)
 
 - Resources
-  - [Ruby Conventions](resources/ruby_conventions.md)
+  - [PHP Conventions](resources/php_conventions.md)
   - [References](resources/references.md)
