@@ -5,8 +5,8 @@
 
 ### Web Server Solution Stack
 
-- XAMPP (Windows): https://www.apachefriends.org/download.html
-- MAMP (Mac): https://www.mamp.info/en/
+- XAMPP (https://www.apachefriends.org/download.html) (Windows)
+- MAMP (https://www.mamp.info/en/) (Mac)
 
 ### Text editors
 
