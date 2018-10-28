@@ -13,15 +13,15 @@ Learn more about PHP from their [official site](https://secure.php.net/).
 
 !> Read this [document](wwcodemanila/study_groups.md) first to know what study groups are.
 
-For beginners, we will learn the basic concepts of programming using PHP. This can be your jump off towards web development, scripting, data processing and more!
-
-For immediate/advanced PHP Devs, let's spread our knowledge of PHP and learn more!
-
 This study group is held once a month and is led by our volunteer leaders. However, everyone is welcome to join, learn, and share their knowledge in the community.
 
 Everyone joining this study group and other Women Who Code events must follow our [code of conduct](https://github.com/WomenWhoCode/guidelines-resources/blob/master/code_of_conduct.md).
 
 ## Study group setup
+
+For beginners, we will learn the basic concepts of programming using PHP. This can be your jump off towards web development, scripting, data processing and more!
+
+For immediate/advanced PHP Devs, let's spread our knowledge of PHP and learn more!
 
 - Resources such as notes, exercises and samples will be uploaded here.
 - Our 1.5 hours will be divided randomly into:
