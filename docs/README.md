@@ -1,6 +1,6 @@
 # Women Who Code Manila PHP Study Group
 
-![PHP](docs/_media/php-logo.png)
+![PHP](_media/php-logo.png)
 
 **PHP** is a popular general-purpose scripting language that is especially suited to web development.
 
