@@ -25,12 +25,12 @@ For immediate/advanced PHP Devs, let's spread our knowledge of PHP and learn mor
 
 - Resources such as notes, exercises and samples will be uploaded here.
 - Our 1.5 hours will be divided randomly into:
-        - Introduction/Getting to know first-timers
-        - Discuss questions/issues raised on discussion board
-        - Lightning Talk (anyone who wants to share/chikka something!)
-        - Self-paced or mini study session
-        - Today I Learned (TIL)
-        - Announcement
+        Introduction/Getting to know first-timers
+        Discuss questions/issues raised on discussion board
+        Lightning Talk (anyone who wants to share/chikka something!)
+        Self-paced or mini study session
+        Today I Learned (TIL)
+        Announcement
         
 ## Relevant links
 
