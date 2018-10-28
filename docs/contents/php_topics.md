@@ -1,4 +1,4 @@
-# Topics we've covered
+## Topics we've covered
 
     WEEK 1
       WHAT IS PHP
@@ -22,7 +22,7 @@
     WEEK 6
       BASIC CRUD (Create, Read, Update, Delete)
       
- # Soon
+ ## Soon
 
     CREATING A SIMPLE PHP PROJECT
       PART 1: CREATE LOGIN & REGISTRATION PAGE    List comprehension
