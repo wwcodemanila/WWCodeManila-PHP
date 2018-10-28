@@ -1,68 +1,46 @@
-# Welcome to WWCodeManila-PHP Official Repo Site
+# Women Who Code Manila PHP Study Group
 
-For beginners, we will learn the basic concepts of programming using PHP. This can be your jump off towards web development, scripting, data processing and more!
+![PHP](_media/php-logo.png)
 
-For immediate/advanced PHP Devs, let's spread our knowledge of PHP and learn more!
+**PHP** is a popular general-purpose scripting language that is especially suited to web development.
 
-If you have questions, please feel free to ask and participate on our discussion board.
+Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. 
 
-Study Group Setup
+Learn more about Ruby from their [official site](https://secure.php.net/).
 
-    Resources such as notes, exercises and samples will be uploaded here.
-    Our 1.5 hours will be divided randomly into:
-        Introduction/Getting to know first-timers
-        Discuss questions/issues raised on discussion board
-        Lightning Talk (anyone who wants to share/chikka something!)
-        Self-paced or mini study session
-        Today I Learned (TIL)
-        Announcement
+## About this study group
 
-Getting started
+!> Read this [document](wwcodemanila/study_groups.md) first to know what study groups are.
 
-    Install XAMMP and Notepad++ (Windows), MAMP & Any Text Editor (Mac)
-    Basic GIT commands
+This study group is held once a month and is led by our volunteer leaders. However, everyone is welcome to join, learn, and share their knowledge in the community.
 
-Topics we've covered
+Everyone joining this study group and other Women Who Code events must follow our [code of conduct](https://github.com/WomenWhoCode/guidelines-resources/blob/master/code_of_conduct.md).
 
-    WEEK 1
-      WHAT IS PHP
-      WHAT YOU SHOULD ALREADY KNOW
-      WHAT IS A PHP FILE
-      WHAT CAN PHP DO
-      WHY PHP
-      HOW TO INSTALL PHP
-    WEEK 2      
-      PHP DATA TYPES, STRINGS, CONSTANTS, OPERATORS, ARRAYS
-      PHP IF…ELSE…ELSEIF
-      PHP SWITCH, WHILE, FOR LOOPS
-      PHP FUNCTIONS
-    WEEK 3
-      PHP FORMS HANDLING
-      CONNECT TO MYSQL DATABASE
-    WEEK 4
-      PHP FORMS VALIDATION
-    WEEK 5
-      SAVE/RETRIVE DATA FROM DATABASE
-    WEEK 6
-      BASIC CRUD (Create, Read, Update, Delete)
-    
-Soon
+## Relevant links
 
-    CREATING A SIMPLE PHP PROJECT
-      PART 1: CREATE LOGIN & REGISTRATION PAGE    List comprehension
-      PART 2: CREATE HOME PAGE & MENU
-      PART 3: CREATE ADD, EDIT, & DELETE PAGE
-    PHP MVC
-    PHP FRAMEWORKS
-    MODEL
-    VIEW
-    CONTROLLERS
-    CREATING A SIMPLE PHP PROJECT USING ZEND FRAMEWORK (A VERY SIMPLE PHONEBOOK)
-      PART 1: CREATE LOGIN & REGISTRATION PAGE
-      PART 2: CREATE HOME PAGE & MENU 
-      PART 3: CREATE ADD, EDIT, & DELETE PAGE
-    CREATING A SIMPLE PHP PROJECT USING CODE IGNITER FRAMEWORK (A VERY SIMPLE PHONEBOOK)
-      PART 1: CREATE LOGIN & REGISTRATION PAGE
-      PART 2: CREATE HOME PAGE & MENU 
-      PART 3: CREATE ADD, EDIT, & DELETE PAGE
-    SERVER ARCHITECTURE & PHP PROJECT DEPLOYMENT
+- [Gitter Chat](https://gitter.im/WWCodeManila/PHP): Interact with the community. You can share something about Ruby, or ask help if you're stuck on a problem.
+- [Github](https://github.com/wwcodemanila/WWCodeManila-PHP): View study group code
+- [Meetup](https://bit.ly/wwcodemanilameetups): Get updated with the upcoming study group and other event schedules.
+- [Facebook](https://facebook.com/wwcodemanila): Get updated about what's happening with the community.
+- [Twitter](https://twitter.com/wwcodemanila): Get updates about current and future events.
+
+## Helping out
+
+### Volunteer
+
+Attend one of our [events](https://bit.ly/wwcodemanilameetups) and talk to us! :smile:
+
+### Donate
+
+Even a little amount is a big help for us to achieve our mission of inspiring women to excel in tech careers. :heart:
+
+You can donate at our [Open Collective](https://opencollective.com/wwcodemanila).
+
+### Hosting
+
+Do you want to host one of our study groups? Email us at **manila@womenwhocode.com**.
+
+## Contributors
+
+- Mary Jeykle Sunas ([@mjdsunas](https://github.com/mjdsunas))
+- Karen Irene Cano ([@karenirenecano](https://github.com/karenirenecano))
