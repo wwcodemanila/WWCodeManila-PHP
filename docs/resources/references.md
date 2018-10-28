@@ -2,7 +2,7 @@
 
 Reading software documentation is part of being a software developer. You can find information about built-in methods in PHP.
 
-- PHP Official Documentation: https://secure.php.net/docs.php
+- [PHP Official Documentation](https://secure.php.net/docs.php)
 
 ## Online tutorials
 
