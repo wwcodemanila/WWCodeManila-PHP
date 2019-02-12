@@ -1,4 +1,4 @@
-## PHP for Beginners
+## PHP Starter Pack
 
 These are meant to build the needed PHP foundation before diving into Web Development using PHP. Other more advance PHP concepts such as session control, error handling, etc will be touched as we go along the PHP materials.
 
