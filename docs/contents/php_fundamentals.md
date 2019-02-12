@@ -70,8 +70,8 @@
       install a web server
       install PHP
       install a database, such as MySQL
-      OR install XAMPP (most popular PHP Development Environment).
+      OR install XAMPP (most popular PHP Development Environment)
       
-      XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages. Get installer here: https://www.apachefriends.org/download.html
+    XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages. Get installer here: https://www.apachefriends.org/download.html
       
     The official PHP website (PHP.net) has installation instructions for PHP: http://php.net/manual/en/install.php
