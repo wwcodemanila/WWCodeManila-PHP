@@ -53,7 +53,8 @@ PHP also has **in built support for working hand in hand with MySQL**; this does
 
 PHP is **cross platform** which means you can deploy your application on a number of different operating systems such as windows, Linux, Mac OS etc. (Reference: https://www.guru99.com/php-practical-example.html)
 
-!> - PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+!> 
+- PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
 - PHP is compatible with almost all servers used today (Apache, IIS, etc.)
 - PHP supports a wide range of databases
 - PHP is free. Download it from the official PHP resource: www.php.net
