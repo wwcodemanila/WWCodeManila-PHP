@@ -7,8 +7,7 @@
   - [Study Groups](wwcodemanila/study_groups.md)
 
 - Contents
-  - [PHP Fundamentals](contents/php_fundamentals.md)
-  - [PHP Starter Pack](contents/php_starter.md)
+  - [PHP Starter Pack](contents/php_fundamentals.md)
   - [Topics](contents/php_topics.md)
 
 - Resources
