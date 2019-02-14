@@ -45,7 +45,7 @@ Before you continue you should have a basic understanding of the following:
 
 ## Why PHP?
 
-You have obviously head of a number of programming languages out there; you may be wondering why we would want to use PHP over other languages to develop our video library application? PHP just like MySQL is **open source and free**, you don't need to pay for you to get PHP; all you have to do is download it. Packages such as **XAMPP** come bundled already with a web server, MySQL and PHP among others. This is also unbelievably free. This makes PHP a cost effective choice compared to other scripting languages such as CFML or ASP.
+You have obviously head of a number of programming languages out there; you may be wondering why we would want to use PHP over other languages? PHP just like MySQL is **open source and free**, you don't need to pay for you to get PHP; all you have to do is download it. Packages such as **XAMPP** come bundled already with a web server, MySQL and PHP among others. This is also unbelievably free. This makes PHP a cost effective choice compared to other scripting languages such as CFML or ASP.
 
 Other benefit that you get with PHP is that it's a **server side scripting language**; this means you only need to install it on the server and client computers requesting for the resources from the server do not need to have PHP installed; only a web browser would be enough.
 
