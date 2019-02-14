@@ -1,7 +1,7 @@
 
 ## What is PHP?
 
-PHP is a **general purpose server side scripting language** that we can use to develop dynamic web sites and applications. PHP only needs to be **installed on the web server** that will host the web application and **client applications** can **access** the **server resources** via **web browsers**. The diagram shown below illustrates the basic architecture of a PHP web application.
+PHP is a **general purpose server side scripting language** that we can use to develop dynamic web sites and applications. PHP only needs to be **installed on the web server** that will host the web application and **client applications** can **access** the **server resources** via **web browsers**. The diagram shown below illustrates the basic architecture of a PHP web application. (Reference: https://www.guru99.com/php-practical-example.html)
 
 ![PHP Basic Architecture](https://www.guru99.com/images/client_server.png)
 
@@ -51,7 +51,7 @@ Other benefit that you get with PHP is that it's a **server side scripting langu
 
 PHP also has **in built support for working hand in hand with MySQL**; this doesn't mean you can't use PHP with other database management systems.
 
-PHP is **cross platform** which means you can deploy your application on a number of different operating systems such as windows, Linux, Mac OS etc.
+PHP is **cross platform** which means you can deploy your application on a number of different operating systems such as windows, Linux, Mac OS etc. (Reference: https://www.guru99.com/php-practical-example.html)
 
 - PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
 - PHP is compatible with almost all servers used today (Apache, IIS, etc.)
