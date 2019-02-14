@@ -1,6 +1,10 @@
 
 ## What is PHP?
 
+PHP is a **general purpose server side scripting language** that we can use to develop dynamic web sites and applications. PHP only needs to be **installed on the web server** that will host the web application and **client applications** can **access** the **server resources** via **web browsers**. The diagram shown below illustrates the basic architecture of a PHP web application.
+
+![PHP Basic Architecture](https://www.guru99.com/images/client_server.png)
+
 - PHP is an acronym for "PHP: Hypertext Preprocessor"
 - PHP is a widely-used, open source scripting language
 - PHP scripts are executed on the server
