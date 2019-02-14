@@ -12,6 +12,9 @@
 
 ## PHP FRAMEWORKS
 
+![PHP Frameworks](http://www.seoessence.com/uploads/images/php_frameworks.png)
+
+
 ## CREATING A SIMPLE PHP PROJECT USING CODE IGNITER FRAMEWORK 
 
 - PART 1: CREATE LOGIN & REGISTRATION PAGE
