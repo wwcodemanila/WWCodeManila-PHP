@@ -16,21 +16,22 @@ PHP is a **general purpose server side scripting language** that we can use to d
 - It is deep enough to run the largest social network (Facebook)!
 - It is also easy enough to be a beginner's first server side language!
     
-## WHAT YOU SHOULD ALREADY KNOW
+## What you should already know
 
 Before you continue you should have a basic understanding of the following:
 
 - HTML
 - CSS
 - JavaScript
+- MySQL 
 
-## WHAT IS A PHP FILE
+## What is a PHP file?
 
 - PHP files can contain text, HTML, CSS, JavaScript, and PHP code
 - PHP code are executed on the server, and the result is returned to the browser as plain HTML
 - PHP files have extension ".php"
 
-## WHAT CAN PHP DO
+## What can PHP do?
 
 - PHP can generate dynamic page content
 - PHP can create, open, read, write, delete, and close files on the server
@@ -42,7 +43,15 @@ Before you continue you should have a basic understanding of the following:
     
 !> With PHP you are not limited to output HTML. You can output images, PDF files, and even Flash movies. You can also output any text, such as XHTML and XML.
 
-## WHY PHP
+## Why PHP?
+
+You have obviously head of a number of programming languages out there; you may be wondering why we would want to use PHP over other languages to develop our video library application? PHP just like MySQL is **open source and free**, you don't need to pay for you to get PHP; all you have to do is download it. Packages such as **XAMPP** come bundled already with a web server, MySQL and PHP among others. This is also unbelievably free. This makes PHP a cost effective choice compared to other scripting languages such as CFML or ASP.
+
+Other benefit that you get with PHP is that it's a **server side scripting language**; this means you only need to install it on the server and client computers requesting for the resources from the server do not need to have PHP installed; only a web browser would be enough.
+
+PHP also has **in built support for working hand in hand with MySQL**; this doesn't mean you can't use PHP with other database management systems.
+
+PHP is **cross platform** which means you can deploy your application on a number of different operating systems such as windows, Linux, Mac OS etc.
 
 - PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
 - PHP is compatible with almost all servers used today (Apache, IIS, etc.)
