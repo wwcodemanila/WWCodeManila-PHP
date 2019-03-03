@@ -8,6 +8,13 @@
 - [XAMPP](https://www.apachefriends.org/download.html) (Windows)
 - [MAMP](https://www.mamp.info/en/) (Mac)
 
+
+### Serverless Solution Stack
+
+- [Bref Package](https://bref.sh/docs/installation.html) (Linux Only)
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) (Linux/Windows)
+- [AWS SAM CLI](https://aws.amazon.com/serverless/sam/) (Linux/Windows)
+
 ### Text editors
 
 PHP does not require an IDE. You can opt to use one of these as your text editor (or your own choice).
