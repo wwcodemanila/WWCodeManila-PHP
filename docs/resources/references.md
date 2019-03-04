@@ -18,3 +18,4 @@ You can also refer to these online tutorials to help you get started.
 ## Useful resources
 
 - [PHP related Repos](https://github.com/php).
+- [Serverless PHP related Repos](https://github.com/mnapoli/bref).
