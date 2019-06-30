@@ -86,3 +86,6 @@ Moreover POST supports advanced functionality such as support for multi-part bin
 However, because the variables are not displayed in the URL, it is not possible to bookmark the page.
 
 !>Developers prefer POST for sending form data.
+
+
+*Reference: [https://www.w3schools.com/php/](https://www.w3schools.com/php/)*
