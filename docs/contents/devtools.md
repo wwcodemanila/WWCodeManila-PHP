@@ -49,7 +49,8 @@ JSON, short for JavaScript Object Notation, is a lightweight computer data inter
 
 Example:
 
-```{
+```
+{
   "firstName": "John",
   "lastName": "Smith",
   "gender": "man",
@@ -70,7 +71,8 @@ Example:
       "number": "646 555-4567"
     }
   ]
-}```
+}
+```
 
 This site convert JSON Strings to a Friendly Readable Format. Like this:
 
