@@ -79,21 +79,44 @@ This site convert JSON Strings to a Friendly Readable Format. Like this:
 ### DataTables
 [https://www.datatables.net](https://www.datatables.net)
 
-### PHP RAD Tool: PHPMAKER
+DataTables is a powerful jQuery plugin for creating table listings and adding interactions to them. It provides searching, sorting and pagination without any configuration. Help developers save time in creating advance and interactive HTML Tables.
+
+![DataTables](datatables.PNG)
+
+### PHPMAKER: Rapid Application Development (RAD) Tool for PHP
 [http://www.hkvstore.com/phpmaker](http://www.hkvstore.com/phpmaker)
+
+PHPMaker is a powerful automation tool that can generate a full set of PHP quickly from MySQL, PostgreSQL, Microsoft Access, Microsoft SQL Server, Oracle and SQLite databases. Using PHPMaker, you can instantly create web sites that allow users to view, edit, search, add and delete records on the web. PHPMaker is designed for high flexibility, numerous options enable you to generate PHP applications that best suits your needs. The generated codes are clean, straightforward and easy-to-customize. The PHP scripts can be run on Windows servers or Linux servers (except Microsoft Access). PHPMaker can save you tons of time and is suitable for both beginners and experienced develpers alike.
 
 ### Make and receive phone calls and send and receive text messages using web service APIs
 [https://www.twilio.com/](https://www.twilio.com/)
 
-### Sending email with gmail smtp with codeigniter email library
-[https://stackoverflow.com/questions/1555145/sending-email-with-gmail-smtp-with-codeigniter-email-library](https://stackoverflow.com/questions/1555145/sending-email-with-gmail-smtp-with-codeigniter-email-library)
+Twilio is a cloud communications platform as a service (CPaaS) company based in San Francisco, California. Twilio allows software developers to programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs.
 
 ### Halt bots using reCAPTCHA
 [https://www.google.com/recaptcha/intro/v3beta.html](https://www.google.com/recaptcha/intro/v3beta.html)
 
-### Google Charts
+reCAPTCHA is a free service that protects your website from spam and abuse. reCAPTCHA uses an advanced risk analysis engine and adaptive CAPTCHAs to keep automated software from engaging in abusive activities on your site. It does this while letting your valid users pass through with ease.
+
+reCAPTCHA offers more than just spam protection. Every time our CAPTCHAs are solved, that human effort helps digitize text, annotate images, and build machine learning datasets. This in turn helps preserve books, improve maps, and solve hard AI problems.
+
+You can find a reCAPTCHA [codelab here](https://codelabs.developers.google.com/codelabs/reCAPTCHA/index.html#0).
+
+### Google Charts for Data Visualization
 [https://developers.google.com/chart/](https://developers.google.com/chart/)
+
+Google Charts provides a perfect way to visualize data on your website. From simple line charts to complex hierarchical tree maps, the chart gallery provides a large number of ready-to-use chart types.
+
+The most common way to use Google Charts is with simple JavaScript that you embed in your web page. You load some Google Chart libraries, list the data to be charted, select options to customize your chart, and finally create a chart object with an id that you choose. Then, later in the web page, you create a <div> with that id to display the Google Chart.
+
+That's all you need to [get started](https://developers.google.com/chart/interactive/docs/quick_start).
+
+![Google Chart](charts.PNG)
 
 ### Web Audit Tool
 [https://web.dev/measure](https://web.dev/measure)
+
+Measure you website performance with this tool. It uses Lighthouse, is an open-source, automated tool for improving the quality of your web apps. It is integrated directly into the Chrome DevTools Audits panel. See your site's performance across the areas you care about. And get tips for improving your website.
+
+
 
