@@ -26,14 +26,47 @@ This site also offers an online demo where you're welcome to tinker around to ge
 ### Bootstrap Builder
 [http://getbootstrap.com/docs/3.3/components](http://getbootstrap.com/docs/3.3/components/)
 
+Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. This site give developers over a dozen of reusable components built to provide iconography, dropdowns, input groups, navigation, alerts, and much more. 
+
 ### Bootstrap Components Generator
 [https://bootsnipp.com](https://bootsnipp.com)
 
+Bootsnipp is an element gallery for web designers and web developers, anybody using Bootstrap will find this website essential in their craft. It is a free to use web service that provides code snippets for design elements on webpages. You can search for a particular webpage design element or simply browse them through the homepage. Clicking on an element opens its page where you can preview it and copy its code snippet. The code can be edited on the page and the preview is updated in real time.
+
+You can then copy the code and use it in your projects if you are using Bootstrap HTML / CSS / JS.
+
 ### Sweet Alerts!
-[https://sweetalert.js.org/guides/](https://sweetalert.js.org/guides/)
+[https://sweetalert.js.org/guides](https://sweetalert.js.org/guides/)
+
+SweetAlert makes popup messages easy and pretty. It is a beautiful replacement for success messages, error messages, warning modals, and a lot more. You can customize SweetAlert to fit your needs. 
+
+![Visual Studio Code](alerts.PNG)
 
 ### JSON Format viewer
 [http://jsonviewer.stack.hu/](http://jsonviewer.stack.hu/)
+
+JSON, short for JavaScript Object Notation, is a lightweight computer data interchange format. JSON is a text-based, human-readable format for representing simple data structures and associative arrays (called objects).
+
+Example:
+
+```{
+    "firstName": "John",
+    "lastName": "Smith",
+    "gender": "man",
+    "age": 32,
+    "address": {
+        "streetAddress": "21 2nd Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10021"
+    },
+    "phoneNumbers": [
+        { "type": "home", "number": "212 555-1234" },
+        { "type": "fax", "number": "646 555-4567" }
+    ]
+}```
+
+This site convert JSON Strings to a Friendly Readable Format.
 
 ### DataTables
 [https://www.datatables.net](https://www.datatables.net)
