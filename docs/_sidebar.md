@@ -8,6 +8,7 @@
 
 - Contents
   - [PHP Basic Concepts](contents/basic_concepts.md)
+  - [PHP Fundamentals](contents/php_fundamental.md)
   - [PHP Design Pattern](contents/desing_pattern.md)
   - [PHP Frameworks](contents/php_frameworks.md)
   - [Your First Hello World!](contents/hello_world.md)
