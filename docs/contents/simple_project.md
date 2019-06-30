@@ -1,5 +1,3 @@
-## Simple PHP Form
-
 The PHP superglobals `$_GET` and `$_POST` are used to collect form-data.
 
 The example below displays a simple HTML form with two input fields and a submit button:
