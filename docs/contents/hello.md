@@ -34,5 +34,4 @@ If you tried this example and it did not output anything, it prompted for downlo
 
 The point of the example is to show the special PHP tag format. In this example we used <?php to indicate the start of a PHP tag. Then we put the PHP statement and left PHP mode by adding the closing tag, ?>. You may jump in and out of PHP mode in an HTML file like this anywhere you want. For more details, read the manual section on the basic PHP syntax.
 
-
-![PHP](frameworks.PNG)
+![PHP](hello.PNG)
