@@ -4,15 +4,17 @@ The HTML form we will be working, contains various input fields: required and op
 
 The validation rules for the form above are as follows:
 
-|**Field|Validation Rules**|
+|**Field**|**Validation Rules**|
 |---|---|
 |Name|	Required. + Must only contain letters and whitespace|
-|E-mail	Required. + Must contain a valid email address (with @ and .)|
+|E-mail|	Required. + Must contain a valid email address (with @ and .)|
 |Website|	Optional. If present, it must contain a valid URL|
 |Comment|	Optional. Multi-line input field (textarea)|
 |Gender|	Required. Must select one|
+
 First we will look at the plain HTML code for the form:
 
+![Validate](validate.PHP)
 
 ### Text Fields
 The name, email, and website fields are text input elements, and the comment field is a textarea. The HTML code looks like this:
