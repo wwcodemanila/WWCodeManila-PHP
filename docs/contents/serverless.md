@@ -1,5 +1,3 @@
-## SERVERLESS
-
 - What is Serverless Framework?
 - Why and is it possible to be serverless with PHP?
 - Skills to level up are not just on the PHP code itself but of the infrastructure, microservices architecture and cost reduction.
