@@ -6,7 +6,7 @@
 - **View** - Front end of the application. Shows to the user the results of the operation.
 - **Controller** - Orchestrates the operation. Handling and validating user input.
 
-![PHP MVC](https://helloacm.com/wp-content/uploads/2017/01/model-view-controller-mvc-explained.jpg)
+![PHP](docs/_media/mvc.png)
 
 ## PHP FRAMEWORKS
 
@@ -16,7 +16,7 @@ A PHP framework provides a basic structure for streamlining the development of w
 
 Above all, the responsiveness of websites and applications built using PHP frameworks helps businesses fulfill their performance needs.
 
-![PHP Frameworks](http://www.seoessence.com/uploads/images/php_frameworks.png)
+![PHP](docs/_media/php-frameworks.png)
 
 ## Creating Simple PHP Project
 
