@@ -14,7 +14,7 @@ The validation rules for the form above are as follows:
 
 First we will look at the plain HTML code for the form:
 
-![Validate](validate.PHP)
+![Validate](validate.PNG)
 
 ### Text Fields
 The name, email, and website fields are text input elements, and the comment field is a textarea. The HTML code looks like this:
@@ -129,8 +129,3 @@ Notice that at the start of the script, we check whether the form has been submi
 However, in the example above, all input fields are optional. The script works fine even if the user does not enter any data.
 
 The next step is to make input fields required and create error messages if needed.
-
-
-## Create Login and Registration Page   
-## Ceate Home Page
-## Create Add, Edit, View, & Delete Page
