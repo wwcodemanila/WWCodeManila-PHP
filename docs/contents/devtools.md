@@ -21,7 +21,7 @@ Ever needed custom formatted sample / test data, like, bad? Well, that's the ide
 
 This site also offers an online demo where you're welcome to tinker around to get a sense of what the script does, what features it offers and how it works. Then, once you've whet your appetite, there's a free, fully functional, GNU-licensed version available for download. Alternatively, if you want to avoid the hassle of setting it up on your own server, you can donate $20 or more to get an account on the site, letting you generate up to 5,000 records at a time (instead of the maximum 100), and let you save your data sets. 
 
-![Visual Studio Code](generate.PNG)
+![Generate Data](generate.PNG)
 
 ### Bootstrap Builder
 [http://getbootstrap.com/docs/3.3/components](http://getbootstrap.com/docs/3.3/components/)
@@ -40,7 +40,7 @@ You can then copy the code and use it in your projects if you are using Bootstra
 
 SweetAlert makes popup messages easy and pretty. It is a beautiful replacement for success messages, error messages, warning modals, and a lot more. You can customize SweetAlert to fit your needs. 
 
-![Visual Studio Code](alerts.PNG)
+![Sweet Alert](alerts.PNG)
 
 ### JSON Format viewer
 [http://jsonviewer.stack.hu/](http://jsonviewer.stack.hu/)
@@ -50,23 +50,31 @@ JSON, short for JavaScript Object Notation, is a lightweight computer data inter
 Example:
 
 ```{
-    "firstName": "John",
-    "lastName": "Smith",
-    "gender": "man",
-    "age": 32,
-    "address": {
-        "streetAddress": "21 2nd Street",
-        "city": "New York",
-        "state": "NY",
-        "postalCode": "10021"
+  "firstName": "John",
+  "lastName": "Smith",
+  "gender": "man",
+  "age": 32,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
     },
-    "phoneNumbers": [
-        { "type": "home", "number": "212 555-1234" },
-        { "type": "fax", "number": "646 555-4567" }
-    ]
+    {
+      "type": "fax",
+      "number": "646 555-4567"
+    }
+  ]
 }```
 
-This site convert JSON Strings to a Friendly Readable Format.
+This site convert JSON Strings to a Friendly Readable Format. Like this:
+
+![JSON Viewer](json.PNG)
 
 ### DataTables
 [https://www.datatables.net](https://www.datatables.net)
