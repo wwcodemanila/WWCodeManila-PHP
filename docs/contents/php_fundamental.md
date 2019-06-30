@@ -1,5 +1,3 @@
-## PHP Fundamentals
-
 These are meant to build the needed PHP foundation before diving into Web Development using PHP. Other more advance PHP concepts will be touched as we go along the PHP Study Group materials. References for this starter pack are from https://www.w3schools.com/php   
 
 |     | Topic                       | Slides/Sites                  | Code Exercises                                    |
