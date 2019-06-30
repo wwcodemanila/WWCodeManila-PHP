@@ -16,7 +16,7 @@ A PHP framework provides a basic structure for streamlining the development of w
 
 Above all, the responsiveness of websites and applications built using PHP frameworks helps businesses fulfill their performance needs.
 
-![PHP](php_frameworks.PNG)
+![PHP](frameworks.PNG)
 
 ## Creating Simple PHP Project
 
