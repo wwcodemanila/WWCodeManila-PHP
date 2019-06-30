@@ -1,0 +1,7 @@
+## SERVERLESS
+
+- What is Serverless Framework?
+- Why and is it possible to be serverless with PHP?
+- Skills to level up are not just on the PHP code itself but of the infrastructure, microservices architecture and cost reduction.
+- How to setup serverless
+- Tools needed : AWS Account, AWS Resources : S3, Api Gateway, Route 53, Cloudfront
