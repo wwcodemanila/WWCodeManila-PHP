@@ -1,4 +1,4 @@
-## PHP MVC
+## MVC
 
 **MVC(Model-View-Controller**) is a **Design Pattern**. It **separates application logic from presentation**.
 
