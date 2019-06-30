@@ -1,11 +1,11 @@
 ## Create your first PHP-enabled page
 
-Create a file named **hello.php** and put it in your web server's root directory (**DOCUMENT_ROOT**) with the following content:
+Create a file named ``hello.php`` and put it in your web server's root directory (``DOCUMENT_ROOT``) with the following content:
 
 **Example #1 Our first PHP script: hello.php**
 
 
-!> <html>
+```<html>
  <head>
   <title>PHP Test</title>
  </head>
@@ -13,11 +13,12 @@ Create a file named **hello.php** and put it in your web server's root directory
  <?php echo '<p>Hello World</p>'; ?> 
  </body>
 </html>
+```
 
 Use your browser to access the file with your web server's URL, ending with the /hello.php file reference. When developing locally this URL will be something like http://localhost/hello.php or http://127.0.0.1/hello.php but this depends on the web server's configuration. If everything is configured correctly, this file will be parsed by PHP and the following output will be sent to your browser:
 
 
-!> <html>
+```<html>
  <head>
   <title>PHP Test</title>
  </head>
@@ -25,6 +26,7 @@ Use your browser to access the file with your web server's URL, ending with the 
  <p>Hello World</p>
  </body>
 </html>
+```
 
 This program is extremely simple and you really did not need to use PHP to create a page like this. All it does is display: Hello World using the PHP echo statement. Note that the file does not need to be executable or special in any way. The server finds out that this file needs to be interpreted by PHP because you used the ".php" extension, which the server is configured to pass on to PHP. Think of this as a normal HTML file which happens to have a set of special tags available to you that do a lot of interesting things.
 
