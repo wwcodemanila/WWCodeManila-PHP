@@ -13,8 +13,12 @@
   - [PHP Frameworks](contents/php_frameworks.md)
   - [Your First Hello World!](contents/hello.md)
   - [Code Fast & Code Smart using Productivity Tools for PHP](contents/devtools.md)
-  - [Creating Simple PHP Project](contents/simple_project.md)
-  - [Creating Simple PHP Project Using Code Igniter Framework](contents/codeigniter.md)
+  - [Create Simple PHP Form](contents/simple_project.md)
+  - [Create PHP Form with Validation](contents/validation.md)
+  - Create Login and Registration Page
+  - Ceate Home Page
+  - Create Add, Edit, View, & Delete Page
+  - [Create PHP Project Using Code Igniter Framework](contents/codeigniter.md)
   - [Server Architecture & PHP Project eployment](contents/architecture.md)
   - [Serverless](contents/serverless.md)
   
