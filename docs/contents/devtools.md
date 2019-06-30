@@ -2,7 +2,7 @@ Development tools plays an important role in the entire web development process.
 
 To help you out, here are a list of essential tools for PHP web development to get you started. 
 
-### VISUAL STUDIO CODE
+### Visual Studio Code
 [https://code.visualstudio.com](https://code.visualstudio.com/)
 
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). Begin your journey with VS Code with these [introductory videos](https://code.visualstudio.com/docs/getstarted/introvideos).
@@ -14,8 +14,14 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 If you are using CodeIgniter framework in your PHP projects, before trying to search for 'answers' in your coding problems in W3Schools or stackoverflow, try reading the CodeIgniter User Guide first. It is the primary documentation for CodeIgniter, included in the package downloads. The User Guide can also be read online. It contains an introduction, tutorial, a number of "how to" guides, and then reference documentation for the components that make up the framework.
 
-### DATA GENERATOR
+### Data Generator
 [http://generatedata.com](http://generatedata.com)
+
+Ever needed custom formatted sample / test data, like, bad? Well, that's the idea of this script. It's a free, open source tool written in JavaScript, PHP and MySQL that lets you quickly generate large volumes of custom data in a variety of formats for use in testing software, populating databases, and... so on and so forth.
+
+This site also offers an online demo where you're welcome to tinker around to get a sense of what the script does, what features it offers and how it works. Then, once you've whet your appetite, there's a free, fully functional, GNU-licensed version available for download. Alternatively, if you want to avoid the hassle of setting it up on your own server, you can donate $20 or more to get an account on the site, letting you generate up to 5,000 records at a time (instead of the maximum 100), and let you save your data sets. 
+
+![Visual Studio Code](generate.PNG)
 
 ### Bootstrap Builder
 [http://getbootstrap.com/docs/3.3/components](http://getbootstrap.com/docs/3.3/components/)
