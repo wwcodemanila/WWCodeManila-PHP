@@ -19,7 +19,7 @@
   - Ceate Home Page
   - Create Add, Edit, View, & Delete Page
   - [Create PHP Project Using Code Igniter Framework](contents/codeigniter.md)
-  - [Server Architecture & PHP Project eployment](contents/architecture.md)
+  - [Server Architecture & PHP Project Deployment](contents/architecture.md)
   - [Serverless](contents/serverless.md)
   
 - Resources
