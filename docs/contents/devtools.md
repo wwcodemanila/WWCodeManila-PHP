@@ -119,6 +119,3 @@ That's all you need to [get started](https://developers.google.com/chart/interac
 [https://web.dev/measure](https://web.dev/measure)
 
 Measure you website performance with this tool. It uses Lighthouse, is an open-source, automated tool for improving the quality of your web apps. It is integrated directly into the Chrome DevTools Audits panel. See your site's performance across the areas you care about. And get tips for improving your website.
-
-
-
