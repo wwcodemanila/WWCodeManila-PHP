@@ -3,7 +3,6 @@ Every programmer has had to deal with CRUD functionality in most of their projec
 
 Below is the simple CRUD we created previously: 
 
-
 ![crud list](crud_list.png)
 
 It’s DB table look like this:
@@ -12,24 +11,26 @@ It’s DB table look like this:
 
 In this article, we will cover adding audit trail/log to our CRUD. 
 
-Audit trails are implemented to maintain a record of system activity. This is to keep track of what changes were made to the database, and by whom. 
+!>Audit trails are implemented to maintain a record of system activity. This is to keep track of what changes were made to the database, and by whom. 
 
-Implementing audit trail may be performed either by program code or database procedures/triggers.
-We can start by by altering the DB table tblitem and add additional fields to implement the trail.
+Implementing audit trail may be performed either by program code or database procedures/triggers. We can start by altering the DB table **tblitem** and add additional fields to implement the trail.
 
 ## Audit Trail implementation for CREATE
 
-1) Let’s add the following fields to tblitem to capture who added the record and when was the record added. 
+1) Let’s add the following fields to **tblitem** to capture who added the record and when was the record added. 
 
 ```
 added_by: int (11), allow NULL, default: NULL 
 date_added: timestamp, allow NULL, default: NULL 
 ```
+2) Add a trigger to capture the current date & time and update the date_added field with the current timestamp. Let's name the trigger **trigger_on_insert**
+```
+BEGIN
+  SET NEW.date_added = CURRENT_TIMESTAMP;
+END
+```
+3) Modify our **Item controller** by getting the session data first.
 
-2) Add a trigger to capture the current date & time and update the date_added field with the current timestamp
-
-
-3) Modify our Item controller by getting the session data first.
 
 4) Add the session data to the ItemModule insert() function.
 
