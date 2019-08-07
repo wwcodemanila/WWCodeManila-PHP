@@ -15,10 +15,8 @@
   - [Code Fast & Code Smart using Productivity Tools for PHP](contents/devtools.md)
   - [Create Simple PHP Form](contents/simple_project.md)
   - [Create PHP Form with Validation](contents/validation.md)
-  - Create Login and Registration Page
-  - Ceate Home Page
-  - Create Add, Edit, View, & Delete Page
   - [Create PHP Project Using Code Igniter Framework](contents/codeigniter.md)
+  - [Audit Trail Implementation to CRUD Operation](contents/audit.md)
   - [Server Architecture & PHP Project Deployment](contents/architecture.md)
   - [Serverless](contents/serverless.md)
   
