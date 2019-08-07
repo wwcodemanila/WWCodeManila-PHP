@@ -4,17 +4,20 @@ Every programmer has had to deal with CRUD functionality in most of their projec
 Below is the simple CRUD we created previously: 
 
 
-![Validate](validate.PNG)
+![Validate](Screenshot 2019-08-07 at 7.17.59 PM.png)
 
-The validation rules for the form above are as follows:
+It’s DB table look like this:
 
-|**Field**|**Validation Rules**|
-|---|---|
-|Name|	Required. + Must only contain letters and whitespace|
-|E-mail|	Required. + Must contain a valid email address (with @ and .)|
-|Website|	Optional. If present, it must contain a valid URL|
-|Comment|	Optional. Multi-line input field (textarea)|
-|Gender|	Required. Must select one|
+
+In this article, we will cover adding audit trail/log to our CRUD. Audit trails are implemented to maintain a record of system activity. This is to keep track of what changes were made to the database, and by whom. 
+Implementing audit trail may be performed either by program code or database procedures/triggers.
+We can start by by altering the DB table tblitem and add additional fields to implement the trail.
+
+###Audit Trail implementation for CREATE
+
+##Let’s add the following fields to tblitem to capture who added the record and when was the record added. 
+
+
 
 First we will look at the plain HTML code for the form:
 
