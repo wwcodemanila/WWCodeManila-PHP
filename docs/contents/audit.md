@@ -17,23 +17,22 @@ Implementing audit trail may be performed either by program code or database pro
 
 ## Audit Trail implementation for CREATE
 
-1) Let’s add the following fields to **tblitem** to capture who added the record and when was the record added. 
-
+1) Add the fields **added_by** and **date_added** to DB table **tblitem** to capture who added the record and when was the record added. 
 ```
 added_by: int (11), allow NULL, default: NULL 
 date_added: timestamp, allow NULL, default: NULL 
 ```
-2) Add a trigger to capture the current date & time and update the date_added field with the current timestamp. Let's name the trigger **trigger_on_insert**
+2) Add a trigger to capture the current date & time and update the date_added field with the current timestamp. Name the trigger **trigger_on_insert**
 ```
 BEGIN
   SET NEW.date_added = CURRENT_TIMESTAMP;
 END
 ```
-3) Modify our **Item controller** by getting the session data first.
+3) Modify **Item controller** global constructor by getting the session data.
 
 ![audit](item1.png)
 
-4) Add the session data to the **ItemModule insert() function**.
+4) Add the session data to the **Item controller insert() function**.
 
 ![audit](item2.png)
 
@@ -53,13 +52,13 @@ While other organization do “soft delete” by tagging the record “inactive�
 
 Let’s try to do the “soft delete” approach.
 
-1) Let’s add the following fields to **tblitem** to capture if the record is deleted/inactive/archived,  who deleted the record and when was the record deleted.
+1) Add the following fields to **tblitem** to capture if the record is deleted/inactive/archived,  who deleted the record and when was the record deleted.
 ```
-archived: int (11), allow NULL, default: NULL 
+archived: tinyint (1), allow NULL, default: 0 
 archived_by: int (11), allow NULL, default: NULL 
 date_archived: timestamp, allow NULL, default: NULL 
 ```
-2) Add a trigger to capture the current date & time and update the **date_archived** field with the current timestamp. Let's name the trigger **trigger_on_update**
+2) Add a trigger to capture the current date & time and update the **date_archived** field with the current timestamp. Name the trigger **trigger_on_update**
 ```
 BEGIN
 
@@ -84,21 +83,21 @@ END
 
 Yeay! We just created an audit trail on who deleted a record and when was the record deleted. 
 
-Now, test it! Try to delete a record in the CRUD application and check the tblitem if the record’s archived field was updated with value ‘1’ and fields archived_by and date_archived was populated by the session id and current timestamp.
+Now, test it! Try to delete a record in the CRUD application and check the **tblitem** if the record’s **archived** field was updated with value ‘1’ and fields **archived_by** and **date_archived** was populated by the session id and current timestamp.
 
-At this point, the DB structure of tblItem now look like this:
+At this point, the DB structure of **tblitem** now look like this:
 
-![audit](item5.png)
+![audit](item6.png)
 
 And added the following triggers:
 
-![audit](item6.png)
+![audit](item7.png)
 
 ## Audit Trail implementation for UPDATE
 
 1) Create a new DB table **audit_trail** having the below table structure 
 
-![audit](item7.png)
+![audit](item8.png)
 
 2) Update the **trigger_on_update** at DB table **tblitem** with the following script:
 ```
@@ -126,9 +125,6 @@ BEGIN
      END IF;
 END
 ``` 
-The **tblitem trigger_on_update** now look like this:
-
-![audit](item8.png)
 
 We have implemented an audit trail during record update. We created an audit table that captures what was updated by logging the name of table and field updated, the old and new value of the record, who updated the data, and when was the data updated.   
 
@@ -136,6 +132,6 @@ Here is a the DB table audit_trail populated with data after update operation:
 
 ![audit](item9.png)
 
-And DB table tblitem now looks like this:
+And DB table **tblitem** now looks like this:
 
 ![audit](item10.png)
