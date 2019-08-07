@@ -9,7 +9,7 @@ It’s DB table look like this:
 
 ![crud table](crud_tbl.png)
 
-In this article, we will cover adding audit trail/log to our CRUD. 
+In this article, we will cover adding audit trail to our CRUD app. 
 
 !>Audit trails are implemented to maintain a record of system activity. This is to keep track of what changes were made to the database, and by whom. 
 
@@ -31,27 +31,35 @@ END
 ```
 3) Modify our **Item controller** by getting the session data first.
 
+![audit](item1.png)
 
-4) Add the session data to the ItemModule insert() function.
+4) Add the session data to the **ItemModule insert() function**.
 
-5) Modify the ItemModel insert() function by setting and adding the session data to the insert query
+![audit](item2.png)
 
+5) Modify the **ItemModel insert() function** by setting and adding the session data to the insert query
+
+![audit](item3.png)
 
 Yeay! We just created an audit trail on who added the record and when was the record added. 
 
-Now, test it! Try to add a new record in the CRUD application and check the tblitem if the record was inserted and fields added_by and date_inserted was populated by the session id and current timestamp.
+Now, test it! Try to add a new record in the CRUD application and check the DB table **tblitem** if the record was inserted and fields **added_by** and **date_inserted** was populated by the session id and current timestamp.
 
 ## Audit Trail implementation for DELETE
 
-For delete operations, there are several ways to implement the trail depending on the data retention policy of the organization. Some organization do “hard delete” from the DB table and keep and deleted records to another DB table called as archived tables. 
+For delete operations, there are several ways to implement the trail depending on the data retention policy of the organization. Some organization do “hard delete” from the DB table and keep and deleted records to another DB table as archived tables. 
 
 While other organization do “soft delete” by tagging the record “inactive” or “deleted” or “archived” and not showing it to the record list by filtering only the active records. 
 
-Let’s try to do “soft delete” approach.
+Let’s try to do the “soft delete” approach.
 
-1) Let’s add the following fields to tblitem to capture if the record is deleted/inactive/archived,  who deleted the record and when was the record deleted.
- 
-2) Add a trigger to capture the current date & time and update the date_archived field with the current timestamp
+1) Let’s add the following fields to **tblitem** to capture if the record is deleted/inactive/archived,  who deleted the record and when was the record deleted.
+```
+archived: int (11), allow NULL, default: NULL 
+archived_by: int (11), allow NULL, default: NULL 
+date_archived: timestamp, allow NULL, default: NULL 
+```
+2) Add a trigger to capture the current date & time and update the **date_archived** field with the current timestamp. Let's name the trigger **trigger_on_update**
 ```
 BEGIN
 
@@ -66,9 +74,13 @@ BEGIN
      END IF;
 END
 ```
-3) Update the ItemModel destroy() function by populating the archived and archived_by fields with the archived tag = ‘1’ and session id.    
+3) Update the **ItemModel destroy() function** by populating the **archived** and **archived_by** fields with the archived tag = ‘1’ and session id.    
 
-4) In the ItemModel getItems() function, include a WHERE clause limiting the list with active records only. 
+![audit](item4.png)
+
+4) In the **ItemModel getItems() function**, include a WHERE clause limiting the list with active records only. 
+
+![audit](item5.png)
 
 Yeay! We just created an audit trail on who deleted a record and when was the record deleted. 
 
@@ -76,14 +88,19 @@ Now, test it! Try to delete a record in the CRUD application and check the tblit
 
 At this point, the DB structure of tblItem now look like this:
 
+![audit](item5.png)
+
 And added the following triggers:
 
+![audit](item6.png)
 
 ## Audit Trail implementation for UPDATE
 
-1) Create a new DB table audit_trail having the below table structure 
+1) Create a new DB table **audit_trail** having the below table structure 
 
-2) Update the trigger_on_update at DB table tblitem with the script below
+![audit](item7.png)
+
+2) Update the **trigger_on_update** at DB table **tblitem** with the following script:
 ```
 BEGIN
 
@@ -109,14 +126,16 @@ BEGIN
      END IF;
 END
 ``` 
-The tblitem trigger_on_update now look like this:
+The **tblitem trigger_on_update** now look like this:
+
+![audit](item8.png)
 
 We have implemented an audit trail during record update. We created an audit table that captures what was updated by logging the name of table and field updated, the old and new value of the record, who updated the data, and when was the data updated.   
 
 Here is a the DB table audit_trail populated with data after update operation:
 
-
-
+![audit](item9.png)
 
 And DB table tblitem now looks like this:
 
+![audit](item10.png)
