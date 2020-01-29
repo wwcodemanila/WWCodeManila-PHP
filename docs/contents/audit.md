@@ -1,7 +1,7 @@
 
-by: Mary Jeykle [https://github.com/mjdsunas]
+by: [Mary Jeykle](https://github.com/mjdsunas)
 
-Every programmer has had to deal with CRUD functionality in most of their projects specially on applications that utilizes forms to retrieve and return data from a database. In one of our previous study group, we discussed how to create a simple app with CRUD functionality. [Download or clone the app here: https://github.com/mjdsunas/ciapp] 
+Every programmer has had to deal with CRUD functionality in most of their projects specially on applications that utilizes forms to retrieve and return data from a database. In one of our previous study group, we discussed how to create a simple app with CRUD functionality. [Download or clone the app here](https://github.com/mjdsunas/ciapp) 
 
 Below is the simple CRUD we created previously: 
 
