@@ -128,7 +128,7 @@ BEGIN
 END
 ``` 
 
-We have implemented an audit trail during record update. We created an audit table that captures what was updated by logging the name of table and field updated, the old and new value of the record, who updated the data, and when was the data updated.   
+We have implemented an audit trail during record update. We created an audit table that captured what was updated by logging the name of table and field updated, the old and new value of the record, who updated the data, and when was the data updated.   
 
 Here is a the DB table audit_trail populated with data after update operation:
 
