@@ -1,6 +1,6 @@
 # Women Who Code Manila PHP Study Group - Livewire Edition
 
-![Livewire](docs/_media/livewire.png)
+![Livewire](../docs/_media/livewire.png)
 
 **Livewire** is a full-stack framework for Laravel that makes building dynamic interfaces simple, without leaving the comfort of Laravel.  Read more [here](https://laravel-livewire.com/).
 
