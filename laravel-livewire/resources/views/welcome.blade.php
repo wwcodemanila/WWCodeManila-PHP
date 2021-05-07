@@ -19,6 +19,7 @@
         </style>
     </head>
     <body>
+        <livewire:counter />
         <livewire:scripts />
     </body>
 </html>
