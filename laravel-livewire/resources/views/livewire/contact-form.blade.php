@@ -45,7 +45,7 @@
          </label>
          <textarea wire:model="message"  
           class="appearance-none block w-full bg-gray-200 text-gray-700 border
-          @error('email') border-red-500 @enderror 
+          @error('message') border-red-500 @enderror 
           border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white 
           focus:border-gray-500" id="grid-message"
           placeholder="Hi, I would like to learn about livewire and ..."
