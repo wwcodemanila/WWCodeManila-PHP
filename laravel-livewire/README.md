@@ -9,6 +9,9 @@
 
 We will study about Laravel Livewire by creating our first **contact form**. :)
 
+![Livewire](../docs/_media/real-time-validation.gif)
+
+
 Read this [document](wwcodemanila/study_groups.md) first to know what study groups are.
 
 This study group is held once a month and is led by our volunteer leaders. However, everyone is welcome to join, learn, and share their knowledge in the community.
