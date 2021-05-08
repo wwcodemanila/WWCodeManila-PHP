@@ -19,6 +19,7 @@
         </style>
     </head>
     <body>
+        @include('nav')
         <livewire:contact-form />
         <livewire:scripts />
     </body>
