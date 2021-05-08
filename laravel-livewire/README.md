@@ -9,8 +9,7 @@
 
 We will study about Laravel Livewire by creating our first **contact form**. :)
 
-![Livewire](../docs/_media/real-time-validation.gif)
-
+<img src="../docs/_media/real-time-validation.gif" width="60%" height="auto">
 
 Read this [document](wwcodemanila/study_groups.md) first to know what study groups are.
 
